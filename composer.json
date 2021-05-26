@@ -1,0 +1,19 @@
+{
+     "name":"bsdev/package",
+     "type":"library",
+     "description": "Package built for SEO",
+     "homepage": "https://www.abc.om",
+     "license": "MIT",
+     "authors": [{
+         "name": "Bharat Shrestha",
+         "email": "bharatstha97@gmail.com"
+     }],
+     "require": {
+         "php":">7.0"
+     },
+     "autoload": {
+         "psr-4":{
+             "CustomPacakge\\":"src/"
+         }
+     }
+}
