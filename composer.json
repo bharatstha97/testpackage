@@ -1,15 +1,16 @@
 {
-     "name":"bsdev/package",
+     "name":"devbs/package",
      "type":"library",
      "description": "Package built for SEO",
-     "homepage": "https://www.abc.om",
+     "homepage": "https://github.com/bharatstha97/testpackage.git",
      "license": "MIT",
      "authors": [{
          "name": "Bharat Shrestha",
          "email": "bharatstha97@gmail.com"
      }],
      "require": {
-         "php":">7.0"
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
      },
      "autoload": {
          "psr-4":{
